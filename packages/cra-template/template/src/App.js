@@ -16,11 +16,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Amigos Palacio Belgrano
+          Learn React
         </a>
       </header>
     </div>
   );
 }
-
 export default App;
