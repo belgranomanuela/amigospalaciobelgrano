@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Muli&display=swap);
+
+.Menu{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 1em;
+    margin: revert;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 0%;
+    color: #111479;
+    background-color: #4d9cbc;
+}
+.Menu li{
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0.5em 0.6em;
+    padding: 12px 15px;
+    position: relative;
+
+}
+.Menu li a{
+    color: #111479;
+    text-decoration: none;
+    letter-spacing: initial;
+}
+.Menu li::before,
+.Menu li::after{
+    transition: all 0.35s ease;
+    height: 2px;
+    width: 35%;
+    background-color: #3f94e4;
+    position: absolute;
+    content: "";
+    opacity: 0;
+
+}
+.Menu li::before{
+    top: 0;
+    left: 0;
+}
+.Menu li::after{
+    bottom: 0;
+    right: 0;
+}
+.Menu li:hover::before,
+.Menu li:hover::before,
+.Menu li:hover::after,
+.Menu li:hover::after{
+opacity: 1;
+}
+.Menu li:hover::before,
+.Menu li:hover::before{
+    left: 65%;
+}
+.Menu li:hover::after,
+.Menu li:hover::after{
+    right: 65%;
+}
+

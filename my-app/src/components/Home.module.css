@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Muli&display=swap);
+footer {
+    height: 7rem;
+    background: #4d9cbc;
+    padding-top: 1rem;
+    position: relative;
+    font-family: 'Muli', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 2.5rem;
+    color: #004d7a;
+}
+
+.socialFooter {
+    text-align: center;
+}
+
+.socialFooter a {
+    color: #004d7a;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.socialFooter a:hover {
+    color: white;
+}

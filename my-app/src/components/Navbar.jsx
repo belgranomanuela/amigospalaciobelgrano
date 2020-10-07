@@ -1,20 +1,28 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import styles from './Navbar.module.css';
+import { Link } from 'react-router-dom';
+
 
 
 function Menu() {
+
     return (
         <>
-            <Navbar bg="light" variant="light">
+            <nav>
+                <ul className={styles.Menu} id='myTopnav'>
+                    <Link to='/'>
+                        <li className="nav-item"> <a href="">Amigos del Palacio Belgrano </a> </li>
+                    </Link>
+                    <Link to='/arquitecto'>
+                        <li className="nav-item"> <a href="#">Arquitecto</a></li>
+                    </Link>
+                    <Link to='/palacio'>
+                        <li className="nav-item"> <a href="#">Palacio</a></li>
+                    </Link>
+                </ul>
 
-                <Navbar.Brand href="#home">
-                    Amigos del Palacio Belgrano</Navbar.Brand>
-                <Nav className="mr-auto">
-                    <Nav.Link href="#home">Quienes Somos</Nav.Link>
-                    <Nav.Link href="#features">Historia</Nav.Link>
-                    <Nav.Link href="#pricing">Contacto</Nav.Link>
-                </Nav>
-            </Navbar>
+            </nav>
+
         </>
     );
 }

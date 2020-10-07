@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Muli&display=swap);
+.textoArquitecto {
+
+    margin-top: 14px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-family: 'Muli', Arial, sans-serif;
+    color: lightblue;
+  text-justify: inter-word;
+  font-size: 20px;
+    }
+img{
+    border-radius: 5px;
+    float: left;
+    max-width: 320px
+}
+.titleArquitecto{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-family: 'Muli', Arial, sans-serif;
+    color: lightblue;
+}
+.suObra{
+    display: flex;
+justify-content: left;
+margin-left: 30px;
+color: lightblue;
+font-family: 'Muli', Arial, sans-serif;
+}
+footer {
+    height: 7rem;
+    background: #4d9cbc;
+    padding-top: 1rem;
+    position: relative;
+    font-family: 'Muli', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 2.5rem;
+    color: #004d7a;
+}
+
+.socialFooter {
+    text-align: center;
+}
+
+.socialFooter a {
+    color: #004d7a;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.socialFooter a:hover {
+    color: white;
+}
